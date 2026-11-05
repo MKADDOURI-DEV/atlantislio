@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import AppLogo from "@/components/ui/AppLogo";
+import AppImage from "@/components/ui/AppImage";
 import Icon from "@/components/ui/AppIcon";
 import { useLanguage } from "@/context/LanguageContext";
 import type { Language } from "@/lib/i18n";
@@ -52,9 +52,16 @@ export default function Header() {
         <div className="header-inner">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 flex-shrink-0">
-            <AppLogo size={36} />
-            <span className="font-display text-lg font-semibold tracking-tight text-primary">
-              ATLANTIS LIO
+            <AppImage
+              src={scrolled ? "/assets/images/logo-symbol.png" : "/assets/images/logo-symbol-light.png"}
+              alt="Hôtel Atlantis"
+              width={40}
+              height={40}
+              priority
+              className="flex-shrink-0"
+            />
+            <span className={`font-display text-lg font-semibold tracking-wide uppercase ${scrolled ? "text-primary" : "text-white"}`}>
+              Hôtel Atlantis
             </span>
           </Link>
 
@@ -116,8 +123,8 @@ export default function Header() {
           <div className="mobile-overlay-inner">
             <div className="flex items-center justify-between mb-10">
               <Link href="/" className="flex items-center gap-2" onClick={() => setMenuOpen(false)}>
-                <AppLogo size={32} />
-                <span className="font-display text-lg font-semibold text-primary">ATLANTIS LIO</span>
+                <AppImage src="/assets/images/logo-symbol.png" alt="Hôtel Atlantis" width={36} height={36} className="flex-shrink-0" />
+                <span className="font-display text-lg font-semibold tracking-wide uppercase text-primary">Hôtel Atlantis</span>
               </Link>
               <button
                 onClick={() => setMenuOpen(false)}

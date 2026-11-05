@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import AppLogo from "@/components/ui/AppLogo";
+import AppImage from "@/components/ui/AppImage";
 import Icon from "@/components/ui/AppIcon";
 import { useLanguage } from "@/context/LanguageContext";
 import { getSiteConfig } from "@/lib/siteConfig";
@@ -30,8 +30,7 @@ export default function Footer() {
         {/* Brand column */}
         <div className="footer-brand">
           <div className="flex items-center gap-2 mb-3">
-            <AppLogo size={36} />
-            <span className="font-display text-lg font-semibold text-primary">ATLANTIS LIO</span>
+            <AppImage src="/assets/images/logo-light.png" alt="Hôtel Atlantis" width={96} height={163} className="h-28 w-auto" />
           </div>
           <p className="text-sm text-muted-foreground mb-4">
             {config.company.tagline[isRTL ? "ar" : "fr"]}
