@@ -136,44 +136,44 @@ export const defaultConfig: SiteConfig = {
   gallery: [
   {
     id: "g1",
-    src: "https://images.unsplash.com/photo-1538416812542-cc3c6cbe8319",
-    alt: "Vue côtière de la maison d'hôtes",
+    src: "/assets/images/rooms/single-4.jpg",
+    alt: "Balcon avec vue sur l'océan",
     category: "Extérieur",
     order: 1
   },
   {
     id: "g2",
-    src: "https://img.rocket.new/generatedImages/rocket_gen_img_16c4a8361-1782230380124.png",
-    alt: "Chambre élégante avec vue sur l'océan",
+    src: "/assets/images/rooms/double-1.jpg",
+    alt: "Chambre double avec lits jumeaux",
     category: "Chambres",
     order: 2
   },
   {
     id: "g3",
-    src: "https://images.unsplash.com/photo-1670882108396-bc8caf7bfec1",
-    alt: "Terrasse avec vue panoramique",
+    src: "/assets/images/hotel/petit-dejeuner.jpg",
+    alt: "Petit-déjeuner en terrasse",
     category: "Terrasse",
     order: 3
   },
   {
     id: "g4",
-    src: "https://images.unsplash.com/photo-1656935450733-1dcd4c8d0828",
-    alt: "Piscine extérieure vue mer",
-    category: "Extérieur",
+    src: "/assets/images/rooms/single-1.jpg",
+    alt: "Chambre single vue mer",
+    category: "Chambres",
     order: 4
   },
   {
     id: "g5",
-    src: "https://img.rocket.new/generatedImages/rocket_gen_img_1872142eb-1782311118809.png",
-    alt: "Salon marocain traditionnel",
+    src: "/assets/images/hotel/lobby.jpg",
+    alt: "Hall d'accueil",
     category: "Intérieur",
     order: 5
   },
   {
     id: "g6",
-    src: "https://img.rocket.new/generatedImages/rocket_gen_img_13414bc2a-1765348050211.png",
-    alt: "Salle à manger avec décoration marocaine",
-    category: "Intérieur",
+    src: "/assets/images/rooms/bain-1.jpg",
+    alt: "Salle de bain en zellige",
+    category: "Chambres",
     order: 6
   }]
 

@@ -33,8 +33,8 @@ export default function AboutPageContent() {
       <div className="page-hero" dir={isRTL ? "rtl" : "ltr"}>
         <div className="page-hero-bg">
           <AppImage
-            src="https://img.rocket.new/generatedImages/rocket_gen_img_448a4244a-1791200400920.png"
-            alt="Intérieur luxueux d'ATLANTIS LIO, salon marocain traditionnel, lumière tamisée sombre et dorée, ombres profondes"
+            src="/assets/images/hotel/lobby.jpg"
+            alt="Hall d'accueil d'ATLANTIS LIO"
             fill
             priority
             className="object-cover"
@@ -55,8 +55,8 @@ export default function AboutPageContent() {
             <div className="about-image-col">
               <div className="about-image-wrap">
                 <AppImage
-                  src="https://images.unsplash.com/photo-1662640164822-53b28aa216d1"
-                  alt="Piscine extérieure d'ATLANTIS LIO au bord de l'Atlantique, lumière naturelle douce, eau scintillante bleue"
+                  src="/assets/images/rooms/double-3.jpg"
+                  alt="Petit-déjeuner sur le balcon face à l'océan"
                   fill
                   className="object-cover rounded-2xl"
                   sizes="(max-width: 768px) 100vw, 50vw" />

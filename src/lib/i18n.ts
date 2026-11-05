@@ -5,6 +5,7 @@ export const translations = {
     nav: {
       home: "Accueil",
       about: "À propos",
+      rooms: "Chambres",
       activities: "Activités",
       services: "Services",
       realisations: "Réalisations",
@@ -113,6 +114,7 @@ export const translations = {
     nav: {
       home: "Home",
       about: "About",
+      rooms: "Rooms",
       activities: "Activities",
       services: "Services",
       realisations: "Achievements",
@@ -221,6 +223,7 @@ export const translations = {
     nav: {
       home: "الرئيسية",
       about: "من نحن",
+      rooms: "الغرف",
       activities: "الأنشطة",
       services: "الخدمات",
       realisations: "الإنجازات",

@@ -83,8 +83,8 @@ export default function QuoteRequestContent() {
             <div className="quote-image-col">
               <div className="relative h-72 rounded-2xl overflow-hidden mb-6">
                 <AppImage
-                  src="https://img.rocket.new/generatedImages/rocket_gen_img_4c3a7ad50-1791200401330.png"
-                  alt="Terrasse panoramique d'ATLANTIS LIO avec vue sur l'Atlantique, coucher de soleil dramatique, tons orangés profonds"
+                  src="/assets/images/rooms/double-3.jpg"
+                  alt="Balcon d'ATLANTIS LIO avec vue sur l'Atlantique"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 40vw" />

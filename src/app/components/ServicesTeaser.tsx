@@ -62,8 +62,8 @@ export default function ServicesTeaser() {
           {/* Left: image */}
           <div className="services-image-col">
             <AppImage
-              src="https://images.unsplash.com/photo-1606401257542-8866cc0ac198"
-              alt="Chambre élégante d'ATLANTIS LIO avec vue sur l'océan, lit blanc immaculé, lumière naturelle douce et chaleureuse"
+              src="/assets/images/rooms/single-2.jpg"
+              alt="Chambre d'ATLANTIS LIO avec baie vitrée sur l'océan"
               fill
               className="object-cover rounded-2xl"
               sizes="(max-width: 768px) 100vw, 45vw" />

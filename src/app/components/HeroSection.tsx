@@ -5,19 +5,20 @@ import AppImage from "@/components/ui/AppImage";
 import Icon from "@/components/ui/AppIcon";
 import { useLanguage } from "@/context/LanguageContext";
 import { getSiteConfig } from "@/lib/siteConfig";
+import { BOOKING_URL } from "@/lib/config";
 
 const heroImages = [
 {
-  src: "https://img.rocket.new/generatedImages/rocket_gen_img_47b20fc36-1791200400887.png",
-  alt: "Vue côtière de la maison d'hôtes ATLANTIS LIO face à l'Atlantique, ciel dramatique sombre, lumière basse, ombres profondes"
+  src: "/assets/images/rooms/single-4.jpg",
+  alt: "Balcon avec vue sur l'océan Atlantique à ATLANTIS LIO"
 },
 {
-  src: "https://images.unsplash.com/photo-1694859034906-21f7c4ba2843",
-  alt: "Terrasse élégante avec vue panoramique sur l'océan, lumière dorée du coucher de soleil, ambiance cinématique sombre"
+  src: "/assets/images/rooms/double-3.jpg",
+  alt: "Petit-déjeuner sur le balcon face à l'océan"
 },
 {
-  src: "https://img.rocket.new/generatedImages/rocket_gen_img_466c6aeb7-1791200401767.png",
-  alt: "Piscine extérieure de la maison d'hôtes au bord de l'Atlantique, nuit tombante, reflets dorés sur l'eau sombre"
+  src: "/assets/images/rooms/single-1.jpg",
+  alt: "Chambre avec baie vitrée donnant sur la mer"
 }];
 
 
@@ -93,9 +94,9 @@ export default function HeroSection() {
             <Link href="/contact" className="btn-outline-hero">
               {t?.hero?.contact}
             </Link>
-            <Link href="/quote-request" className="btn-accent-hero">
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-accent-hero">
               {t?.hero?.reserve}
-            </Link>
+            </a>
           </div>
         </div>
 

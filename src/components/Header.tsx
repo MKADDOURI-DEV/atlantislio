@@ -5,10 +5,12 @@ import AppLogo from "@/components/ui/AppLogo";
 import Icon from "@/components/ui/AppIcon";
 import { useLanguage } from "@/context/LanguageContext";
 import type { Language } from "@/lib/i18n";
+import { BOOKING_URL } from "@/lib/config";
 
 const navLinks = [
   { key: "home", href: "/" },
   { key: "about", href: "/about" },
+  { key: "rooms", href: "/chambres" },
   { key: "activities", href: "/activities" },
   { key: "services", href: "/services" },
   { key: "gallery", href: "#gallery" },
@@ -89,9 +91,9 @@ export default function Header() {
             </div>
 
             {/* Quote CTA */}
-            <Link href="/quote-request" className="btn-accent hidden md:flex">
-              {t.nav.quote}
-            </Link>
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-accent hidden md:flex">
+              {t.hero.reserve}
+            </a>
 
             {/* Mobile hamburger */}
             <button
@@ -139,13 +141,15 @@ export default function Header() {
               ))}
             </nav>
 
-            <Link
-              href="/quote-request"
+            <a
+              href={BOOKING_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-accent w-full text-center mb-6"
               onClick={() => setMenuOpen(false)}
             >
-              {t.nav.quote}
-            </Link>
+              {t.hero.reserve}
+            </a>
 
             {/* Language switcher mobile */}
             <div className="flex items-center gap-3 justify-center">

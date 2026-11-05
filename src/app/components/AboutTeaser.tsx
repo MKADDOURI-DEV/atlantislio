@@ -35,8 +35,8 @@ export default function AboutTeaser() {
           <div className="about-image-col">
             <div className="about-image-wrap">
               <AppImage
-                src="https://img.rocket.new/generatedImages/rocket_gen_img_171f81f90-1783587013511.png"
-                alt="Salon marocain traditionnel d'ATLANTIS LIO, décoration authentique, lumière tamisée dorée"
+                src="/assets/images/hotel/lobby.jpg"
+                alt="Hall d'accueil d'ATLANTIS LIO avec salon bleu turquoise"
                 fill
                 className="object-cover rounded-2xl"
                 sizes="(max-width: 768px) 100vw, 50vw" />

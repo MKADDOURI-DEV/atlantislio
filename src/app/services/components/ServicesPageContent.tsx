@@ -9,8 +9,8 @@ import { getSiteConfig } from "@/lib/siteConfig";
 const defaultServices = [
 {
   id: "ds1",
-  image: "https://img.rocket.new/generatedImages/rocket_gen_img_1824f7dc7-1772225490702.png",
-  alt: "Chambre élégante avec lit king size blanc, vue sur l'océan, décoration marocaine raffinée, lumière naturelle chaude",
+  image: "/assets/images/rooms/double-1.jpg",
+  alt: "Chambre double avec lits jumeaux et vue sur l'océan",
   nameFr: "Hébergement",
   nameEn: "Accommodation",
   nameAr: "الإقامة",
@@ -19,8 +19,8 @@ const defaultServices = [
 },
 {
   id: "ds2",
-  image: "https://img.rocket.new/generatedImages/rocket_gen_img_1a0f882bf-1771504620941.png",
-  alt: "Table gastronomique marocaine, tajine fumant, plats colorés, décoration chaleureuse et lumineuse, ambiance conviviale",
+  image: "/assets/images/hotel/petit-dejeuner.jpg",
+  alt: "Petit-déjeuner marocain servi en terrasse",
   nameFr: "Restauration",
   nameEn: "Dining",
   nameAr: "المطعم",
@@ -63,8 +63,8 @@ export default function ServicesPageContent() {
       <div className="page-hero" dir={isRTL ? "rtl" : "ltr"}>
         <div className="page-hero-bg">
           <AppImage
-            src="https://img.rocket.new/generatedImages/rocket_gen_img_4fbbff23c-1791200400314.png"
-            alt="Salle à manger luxueuse d'ATLANTIS LIO, décoration marocaine raffinée, lumière sombre et dorée, ombres dramatiques"
+            src="/assets/images/hotel/lobby.jpg"
+            alt="Hall d'accueil d'ATLANTIS LIO"
             fill
             priority
             className="object-cover"
