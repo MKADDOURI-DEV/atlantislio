@@ -7,37 +7,15 @@ import { useLanguage } from "@/context/LanguageContext";
 import { getSiteConfig } from "@/lib/siteConfig";
 import { BOOKING_URL } from "@/lib/config";
 
-const heroImages = [
-{
-  src: "/assets/images/rooms/single-4.jpg",
-  alt: "Balcon avec vue sur l'océan Atlantique à ATLANTIS LIO"
-},
-{
-  src: "/assets/images/rooms/double-3.jpg",
-  alt: "Petit-déjeuner sur le balcon face à l'océan"
-},
-{
-  src: "/assets/images/rooms/single-1.jpg",
-  alt: "Chambre avec baie vitrée donnant sur la mer"
-}];
-
 
 export default function HeroSection() {
   const { t, isRTL } = useLanguage();
   const config = getSiteConfig();
-  const [currentSlide, setCurrentSlide] = useState(0);
   const [revealed, setRevealed] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => setRevealed(true), 300);
     return () => clearTimeout(timer);
-  }, []);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % heroImages?.length);
-    }, 5000);
-    return () => clearInterval(interval);
   }, []);
 
   const tagline = config?.company?.tagline?.[isRTL ? "ar" : "fr"];
@@ -46,21 +24,16 @@ export default function HeroSection() {
     <section className="hero-section" dir={isRTL ? "rtl" : "ltr"}>
       {/* Carousel background */}
       <div className="hero-carousel">
-        {heroImages?.map((img, idx) =>
-        <div
-          key={idx}
-          className={`hero-slide ${idx === currentSlide ? "hero-slide-active" : ""}`}>
-          
-            <AppImage
-            src={img?.src}
-            alt={img?.alt}
-            fill
-            priority={idx === 0}
-            className="hero-slide-img"
-            sizes="100vw" />
-          
-          </div>
-        )}
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src="/assets/videos/hero.mp4"
+          poster="/assets/images/hero-poster.jpg"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          aria-hidden="true" />
         {/* Dark overlay scrim */}
         <div className="hero-scrim" />
         {/* Bottom gradient */}
@@ -118,18 +91,6 @@ export default function HeroSection() {
             <span className="hero-stat-value">Riad</span>
           </div>
         </div>
-      </div>
-
-      {/* Slide indicators */}
-      <div className="hero-indicators">
-        {heroImages?.map((_, idx) =>
-        <button
-          key={idx}
-          onClick={() => setCurrentSlide(idx)}
-          className={`hero-indicator ${idx === currentSlide ? "hero-indicator-active" : ""}`}
-          aria-label={`Slide ${idx + 1}`} />
-
-        )}
       </div>
 
       {/* Scroll cue */}
