@@ -67,10 +67,6 @@ export default function AboutTeaser() {
                 <Icon name="MapPinIcon" size={18} className="text-accent" />
                 <span className="text-sm text-foreground">El-Jadida, Maroc</span>
               </div>
-              <div className="about-fact">
-                <Icon name="UserIcon" size={18} className="text-accent" />
-                <span className="text-sm text-foreground">Mr SOUBARI Abdelmajid</span>
-              </div>
             </div>
 
             <Link href="/about" className="btn-primary mt-6 inline-flex items-center gap-2">

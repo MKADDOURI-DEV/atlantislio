@@ -109,7 +109,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="footer-bottom">
         <p className="text-xs text-muted-foreground">
-          © {year} ATLANTIS LIO (Castella). {t.footer.copyright}
+          © {year} ATLANTIS LIO. {t.footer.copyright}
         </p>
         <p className="text-xs text-muted-foreground">
           SARL AU — Capital: 100 000 MAD

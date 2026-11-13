@@ -419,7 +419,6 @@ export default function AdminDashboard() {
                   ["denomination", "Dénomination sociale"],
                   ["formeJuridique", "Forme juridique"],
                   ["capital", "Capital social"],
-                  ["responsable", "Responsable / Dirigeant"],
                   ["partsSociales", "Parts sociales"],
                   ["participation", "Participation"],
                   ["creation", "Date de création"],

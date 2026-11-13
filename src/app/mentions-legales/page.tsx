@@ -6,7 +6,7 @@ import MentionsLegalesContent from "@/app/mentions-legales/components/MentionsLe
 
 export const metadata = {
   title: "Mentions Légales — ATLANTIS LIO",
-  description: "Mentions légales d'ATLANTIS LIO (Castella), SARL AU, capital 100 000 MAD, dirigée par Mr SOUBARI Abdelmajid, El-Jadida, Maroc.",
+  description: "Mentions légales d'ATLANTIS LIO, SARL AU, capital 100 000 MAD, El-Jadida, Maroc.",
 };
 
 export default function MentionsLegalesPage() {

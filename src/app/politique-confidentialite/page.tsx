@@ -23,7 +23,7 @@ export default function PolitiqueConfidentialitePage() {
           <div className="prose-legal">
             <h2>1. Collecte des Données</h2>
             <p>
-              ATLANTIS LIO (Castella) collecte uniquement les données personnelles que vous nous
+              ATLANTIS LIO collecte uniquement les données personnelles que vous nous
               fournissez volontairement via les formulaires de contact et de demande de devis
               présents sur ce site (nom, email, téléphone, message).
             </p>
@@ -45,7 +45,7 @@ export default function PolitiqueConfidentialitePage() {
 
             <h2>4. Partage des Données</h2>
             <p>
-              ATLANTIS LIO (Castella) ne vend, ne loue et ne partage pas vos données personnelles
+              ATLANTIS LIO ne vend, ne loue et ne partage pas vos données personnelles
               avec des tiers à des fins commerciales.
             </p>
 

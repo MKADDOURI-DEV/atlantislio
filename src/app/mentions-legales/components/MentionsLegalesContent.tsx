@@ -23,7 +23,6 @@ export default function MentionsLegalesContent() {
                 <tr><td className="legal-td-label">Dénomination sociale</td><td>{legal?.denomination}</td></tr>
                 <tr><td className="legal-td-label">Forme juridique</td><td>{legal?.formeJuridique}</td></tr>
                 <tr><td className="legal-td-label">Capital social</td><td>{legal?.capital}</td></tr>
-                <tr><td className="legal-td-label">Responsable / Dirigeant</td><td>{legal?.responsable}</td></tr>
                 <tr><td className="legal-td-label">Parts sociales</td><td>{legal?.partsSociales}</td></tr>
                 <tr><td className="legal-td-label">Participation</td><td>{legal?.participation}</td></tr>
                 <tr><td className="legal-td-label">Adresse du siège</td><td>{legal?.adresse}</td></tr>
@@ -49,14 +48,14 @@ export default function MentionsLegalesContent() {
             <h2>Propriété Intellectuelle</h2>
             <p>
               L'ensemble des contenus présents sur ce site (textes, images, logos, graphismes)
-              est la propriété exclusive d'ATLANTIS LIO (Castella) ou de ses partenaires.
+              est la propriété exclusive d'ATLANTIS LIO ou de ses partenaires.
               Toute reproduction, représentation, modification ou exploitation, totale ou partielle,
               est interdite sans autorisation préalable écrite.
             </p>
 
             <h2>Responsabilité</h2>
             <p>
-              ATLANTIS LIO (Castella) s'efforce de fournir des informations exactes et à jour.
+              ATLANTIS LIO s'efforce de fournir des informations exactes et à jour.
               Cependant, la société ne peut garantir l'exactitude, la complétude ou l'actualité
               des informations diffusées sur ce site. L'utilisation des informations et contenus
               disponibles sur ce site se fait sous l'entière responsabilité de l'utilisateur.

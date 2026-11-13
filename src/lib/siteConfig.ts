@@ -92,12 +92,12 @@ export const defaultConfig: SiteConfig = {
       ar: "بيت ضيافتكم في الجديدة"
     },
     description: {
-      fr: "ATLANTIS LIO (Castella) est une maison d'hôtes de charme située sur la Route Côtière de Sidi Bouzid, à Moulay Abdellah, El-Jadida. Fondée en avril 2021 par M. SOUBARI Abdelmajid, elle offre une expérience authentique alliant confort moderne et hospitalité marocaine traditionnelle face à l'Atlantique.",
-      en: "ATLANTIS LIO (Castella) is a charming guesthouse located on the Coastal Route of Sidi Bouzid, in Moulay Abdellah, El-Jadida. Founded in April 2021 by Mr. SOUBARI Abdelmajid, it offers an authentic experience combining modern comfort and traditional Moroccan hospitality facing the Atlantic.",
-      ar: "أتلانتيس ليو (كاستيلا) هو بيت ضيافة ساحر يقع على الطريق الساحلية لسيدي بوزيد، في مولاي عبد الله، الجديدة. تأسس في أبريل 2021 على يد السيد صبري عبد المجيد، ويقدم تجربة أصيلة تجمع بين الراحة الحديثة والضيافة المغربية التقليدية أمام المحيط الأطلسي."
+      fr: "ATLANTIS LIO est une maison d'hôtes de charme située sur la Route Côtière de Sidi Bouzid, à Moulay Abdellah, El-Jadida. Fondée en avril 2021, elle offre une expérience authentique alliant confort moderne et hospitalité marocaine traditionnelle face à l'Atlantique.",
+      en: "ATLANTIS LIO is a charming guesthouse located on the Coastal Route of Sidi Bouzid, in Moulay Abdellah, El-Jadida. Founded in April 2021, it offers an authentic experience combining modern comfort and traditional Moroccan hospitality facing the Atlantic.",
+      ar: "أتلانتيس ليو هو بيت ضيافة ساحر يقع على الطريق الساحلية لسيدي بوزيد، في مولاي عبد الله، الجديدة. تأسس في أبريل 2021، ويقدم تجربة أصيلة تجمع بين الراحة الحديثة والضيافة المغربية التقليدية أمام المحيط الأطلسي."
     },
     activity: "Maison d'hôtes / Riad",
-    address: "Propriété Soubari, Route Côtière Sidi Bouzid, Moulay Abdellah, El-Jadida, Maroc",
+    address: "Route Côtière Sidi Bouzid, Moulay Abdellah, El-Jadida, Maroc",
     phone: "",
     email: "",
     whatsapp: "",
@@ -113,13 +113,13 @@ export const defaultConfig: SiteConfig = {
     mapEmbedUrl: ""
   },
   legal: {
-    denomination: "ATLANTIS LIO (Castella)",
+    denomination: "ATLANTIS LIO",
     formeJuridique: "Société à Responsabilité Limitée à Associé Unique (SARL AU)",
     capital: "100 000 MAD",
-    responsable: "Mr SOUBARI Abdelmajid",
+    responsable: "",
     partsSociales: "1 000 parts",
     participation: "100%",
-    adresse: "Propriété Soubari 5 (TF 221.048/08), Dr Lbahara, Route Côtière Sidi Bouzid FD 5, Moulay Abdellah, El-Jadida, Maroc",
+    adresse: "Dr Lbahara, Route Côtière Sidi Bouzid FD 5, Moulay Abdellah, El-Jadida, Maroc",
     creation: "20 avril 2021",
     rc: "[À configurer]",
     ice: "[À configurer]"

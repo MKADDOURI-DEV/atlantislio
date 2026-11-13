@@ -14,7 +14,6 @@ export default function AboutPageContent() {
   const facts = [
   { icon: "CalendarDaysIcon" as const, label: "Création", value: "20 avril 2021" },
   { icon: "MapPinIcon" as const, label: "Adresse", value: "Route Côtière Sidi Bouzid, El-Jadida" },
-  { icon: "UserIcon" as const, label: "Dirigeant", value: "Mr SOUBARI Abdelmajid" },
   { icon: "BuildingOfficeIcon" as const, label: "Forme juridique", value: "SARL AU" },
   { icon: "BanknotesIcon" as const, label: "Capital social", value: "100 000 MAD" },
   { icon: "HomeModernIcon" as const, label: "Activité", value: "Maison d\'hôtes / Riad" }];
